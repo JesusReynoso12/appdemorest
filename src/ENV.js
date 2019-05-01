@@ -2,7 +2,7 @@ export const ENVIRONMENT={
     SERVER_PORT:process.env.PORT||3001,
     BD_URL_CONNECTION: {
         TESTING:'',
-        DEVELOPING: 'ponerlocal',
+        DEVELOPING: 'mongodb+srv://jesusR:159753@cluster0-9iarr.mongodb.net/test?retryWrites=true',
         PRODUCTION:''
     },
     ROUTES_MAIN_MODULES:{

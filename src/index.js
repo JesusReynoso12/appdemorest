@@ -24,7 +24,7 @@ app.listen(ENVIRONMENT.SERVER_PORT,async()=>{
                     res.status(200);
                     res.send("¡Hola Mundo!"+"</br>"+
                         "¡Successful Connection to MongoDB"+"</br>"+
-                        "¡Server Web APIs - REST DEMO - ON LINE!"
+                        "Web APIs - REST DEMO - ON LINE!"
                     );
                     res.end();
                 });
